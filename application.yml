@@ -15,7 +15,9 @@ microservice:
    endpoint:
     uri: http://TEZ-SHOPPINGMALL-PRODUCTS/products/GetChance
 
-
-    
-microservice.tez-shoppingmall-orderservice.endpoints.endpoint.uri= http://localhost:8084/customerLogin/demo
+microservice:
+ tez-orderservice:
+   endpoints:
+    endpoint:
+     uri: http://localhost:8084/customerLogin/demo
    

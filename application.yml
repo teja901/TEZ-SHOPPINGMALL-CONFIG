@@ -12,10 +12,12 @@ eureka:
 microservice:
  tez-shoppingmall:
   endpoints:
-   uri: http://TEZ-SHOPPINGMALL-PRODUCTS/products/GetChance
+   endpoint:
+    uri: http://TEZ-SHOPPINGMALL-PRODUCTS/products/GetChance
 
 microservice:
  tez-shoppingmall-orderservice:
   endpoints:
-   uri: http://TEZ-SHOPPINGMALL-ORDERSERVICE/customerLogin/demo
+   endpoint:
+    uri: http://TEZ-SHOPPINGMALL-ORDERSERVICE/customerLogin/demo
    

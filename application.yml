@@ -19,5 +19,5 @@ microservice:
  tez-shoppingmall-orderservice:
   endpoints:
    endpoint:
-    uri: http://TEZ-SHOPPINGMALL/customerLogin/demo
+    uri: http://TEZ-SHOPPINGMALL-ORDERSERVICE/customerLogin/demo
    
